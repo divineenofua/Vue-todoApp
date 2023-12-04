@@ -1,25 +1,21 @@
 <template>
   <main class="app">
     <section class="greeting">
-      <h3 class="title">✍️ToDo Application</h3>
+      <h3 class="title">✍️ToDo App </h3>
     </section>
 
-    <div class="input-section">
+    <div class="input-section card">
       <section class="create-todo">
         <form @submit.prevent="addTodo">
           <h3>What do you plan on doing🙂?</h3>
-          <input
-            type="text"
-            placeholder="e.g. email your boss"
-            v-model="text"
-          />
+          <input type="text" placeholder="e.g. Do the laundry" v-model="text" />
 
           <input type="submit" value="Add todo" />
         </form>
       </section>
     </div>
 
-    <div class="todo-section">
+    <div class="todo-section card">
       <section class="todo-list">
         <h2 v-show="todos.length === 0">No Todos Here😞</h2>
 

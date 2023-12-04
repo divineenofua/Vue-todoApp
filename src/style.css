@@ -37,7 +37,7 @@
     margin: 0;
     display: flex;
     place-items: center;
-    min-width: 320px;
+    min-width: 200px;
     min-height: 100vh;
   }
   
@@ -63,10 +63,11 @@
   button:focus,
   button:focus-visible {
     outline: 4px auto -webkit-focus-ring-color;
+ 
   }
   
-  .card {
-    padding: 2em;
+  .title{
+    color: black;
   }
   
   #app {
@@ -75,6 +76,12 @@
     padding: 2rem;
     text-align: center;
   }
+
+  /* @media (max-width:460px){
+    #app{
+      padding: 10px;
+    }
+  } */
   
   @media (prefers-color-scheme: light) {
     :root {

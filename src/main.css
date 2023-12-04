@@ -27,26 +27,28 @@
   }
   
   body {
-    background: var(--light);
-    color: white;
+    background: white;
+    color: black;
+    width: 100%;
   }
-  
+   
   section {
     margin-top: 2rem;
     margin-bottom: 2rem;
     padding-left: 1.5rem;
     padding-right: 1.5em;
   }
+   
   
   h3 {
-    color: white;
+    color: black;
     font-size: 1rem;
     font-weight: 400;
     margin-bottom: 0.5rem;
   }
   
   h4 {
-    color: white;
+    color: black;
     font-size: 0.875rem;
     font-weight: 700;
     margin-bottom: 0.5rem;
@@ -54,7 +56,9 @@
   
   .greeting .title {
     display: flex;
-  }
+    font-size: 1.5rem;
+    font-weight: 700;
+   }
   
   .greeting .title input {
     margin-left: 0.5rem;
@@ -62,7 +66,7 @@
     min-width: 0;
   }
   
-  .greeting .title,
+  
   .greeting .title input {
     color: white;
     font-size: 2rem;
@@ -207,4 +211,11 @@
     border: 1px solid rgb(47, 47, 47);
     border-radius: 10px;
     margin-top: 30px;
+    
   }
+
+  @media (max-width:460px){
+    
+  }
+
+  
